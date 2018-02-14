@@ -1,0 +1,40 @@
+{
+  "name": "panda-sky-identity",
+  "version": "0.0.1",
+  "description": "Helpers for your Sky API lambdas to deal with authentication / authorization boilerplate",
+  "main": "build/npm/lib/index.js",
+  "files": [
+    "build/npm",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandastrike/panda-sky-identity.git"
+  },
+  "keywords": [
+    "panda",
+    "sky",
+    "serverless",
+    "aws",
+    "identity",
+    "cognito",
+    "frictionless"
+  ],
+  "author": "David Harper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandastrike/panda-sky-identity/issues"
+  },
+  "homepage": "https://github.com/pandastrike/panda-sky-identity#readme",
+  "devDependencies": {
+    "coffeescript": "2.1.0",
+    "fairmont-build-tools": "1.0.2",
+    "gulp": "github:gulpjs/gulp#4.0"
+  },
+  "dependencies": {
+    "fairmont-helpers": "^3.3.2"
+  }
+}
