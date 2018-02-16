@@ -35,6 +35,8 @@
     "gulp": "github:gulpjs/gulp#4.0"
   },
   "dependencies": {
-    "fairmont-helpers": "^3.3.2"
+    "fairmont-helpers": "^3.3.2",
+    "key-forge": "^1.0.0-beta-01",
+    "sundog": "0.0.4"
   }
 }
